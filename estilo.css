@@ -1,0 +1,396 @@
+body, html {
+  height: 100%;
+}
+body{
+  background-image: url("imgs/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+p{
+  padding-left: 5%; 
+  padding-right: 5%;
+  text-align: justify;
+}
+h1, h2, h3{
+  text-align: center;
+}
+h2{
+  clear: right;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#D{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#D h1{
+  float: right;
+  font-size: 50px;
+}
+#D img{
+  float: right;
+  border: none;
+}
+#espelhar{
+  transform: rotateY(180deg);
+}
+#geral {  
+  width: 100%;
+  min-height: 100%;
+}
+.conteudo{
+  font-size:24px;
+  background-color: rgb(221, 98, 27);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 16%;
+  margin-right:11%; 
+  border: 4px solid #291b14;
+  border-radius: 5px;
+}
+main{
+  padding: 10px;
+}
+h1{
+  font-family: 'IM Fell DW Pica', serif;
+  color: #291b14;
+}
+#ML{
+  transform: translateX(-70%);
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  padding-right: 10px;
+  background-color:#291B14;
+}
+#ML:hover{
+  transform: translateX(0%);
+  transition-duration:2s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.link{    
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.link:link {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+.link:visited {
+  color:white;
+}
+.link:hover {
+  color: #291B14;
+  text-decoration: underline;
+  background-color: rgb(184, 184, 184);
+}
+.conteudo a:active {
+  color:purple;
+}
+.conteudo a:link {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+.conteudo a:visited {
+  color:rgb(44, 44, 44);
+}
+.conteudo a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  background-color: rgb(184, 184, 184);
+}
+.link:active {
+  color:purple;
+}
+#ML p{
+  color: white;
+  word-break: break-all;
+  font-size: 33px;
+  height: 100%;
+  width: 0%;
+  margin-top: 100px;
+  font-family: 'IM Fell DW Pica', serif;
+}
+#ML img{
+  height: 50px;
+  width: 50px;
+  margin: 0%;
+  padding-top: 25px;
+  padding-left: 75%;
+}
+#play:hover{
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform:translateX(-40%);
+  transition-duration: 2s;
+  }
+.coluna{
+  display: grid;
+  grid-template-columns: 80% auto;
+}
+#sla{
+  margin-top: 50px;
+  padding-top: 15%;
+  padding-left: 10px;
+}
+.fixoml{
+  transform: translateX(0%);
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.topo img{
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+}
+table{
+  border: 2px solid #291b14;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72%;
+}
+th{
+  width: 50%;
+  transition: opacity 1000ms linear;
+}
+th:hover {
+  opacity: 0;
+}
+td, th{
+  padding: 5px;
+  border: 2px solid #291b14;
+}
+thead{
+  background: #291b14a4;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exemplar{
+  border-radious: 50%;
+  width: 300px;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  margin-left: 3%;
+}
+img{
+  max-width: 60%;
+  border: 3px solid #291b14;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.folhas{
+  width: 35px;
+  position: absolute;
+  bottom: 100%;
+  margin: 15px;
+  border: none;
+}
+#folhaA{
+  right: 80%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 17s ease-in 5s infinite;
+}
+#folhaB{
+  right: 87%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 4s infinite;
+}
+#folhaC{
+  right: 80%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 0s infinite;
+}
+#folhaD{
+  right: 73%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 13s ease-in 1s infinite;
+}
+#folhaE{
+  right: 68%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 3s infinite;
+}
+#folhaF{
+  right: 64%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 16s ease-in 2s infinite;
+}
+#folhaG{
+  right: 60%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 5s infinite;
+}
+#folhaH{
+  right: 53%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 17s ease-in 0s infinite;
+}
+#folhaI{
+  right: 49%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 16s ease-in 4s infinite;
+}
+#folhaJ{
+  right: 45%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 15s ease-in 2s infinite;
+}
+#folhaK{
+  right: 40%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 2s infinite;
+}
+#folhaL{
+  right: 37%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 13s ease-in 3s infinite;
+}
+#folhaM{
+  right: 34%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 13s ease-in 4s infinite;
+}
+#folhaN{
+  right: 30%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 14s ease-in 1s infinite;
+}
+#folhaO{
+  right: 26%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 3s infinite;
+}
+#folhaP{
+  right: 23%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 17s ease-in 2s infinite;
+}
+#folhaQ{
+  right: 19%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 12s ease-in 1s infinite;
+}
+#folhaR{
+  right: 13%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 16s ease-in 0s infinite;
+}
+#folhaS{
+  right: 9%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 16s ease-in 2s infinite;
+}
+#folhaT{
+  right: 4%;
+  animation: girar 2s ease-in-out 0s infinite alternate,
+             cair 17s ease-in 1s infinite;
+}
+@keyframes girar {
+  from{ transform: rotateZ(250deg);}
+  to{ transform: rotateZ(100deg); }
+}
+@keyframes cair {
+  from{ top: -40px;}
+  to{ top: 1700px;}
+}
+.grande{
+  display: inline-block;
+  transition: transform .2s ease-in-out;
+  color:white;
+}
+.grande:hover {
+  transform: scale(1.2);
+}
+header>img:hover {
+  animation: girando 1s ease-in-out ;
+}
+
+@keyframes girando {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bolo{
+  background-color:rgb(56, 56, 56); 
+  display: inline-block;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto{
+  width: 100px;
+  height: 100px;
+  border-radius: 5%;
+  border: none;
+}
+.rede{
+ position: relative;
+ left: -20px;
+ top: +30px;
+ max-width: 30px;
+ max-height: 30px;
+ border-radius: 5%;
+ border: none;
+}
+.bolo a:hover{
+  background-color: rgba(0,0,0,0);
+}
+.gc{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.bolo p{
+  color: white;
+  text-align: center;
+}
+.bolo1{
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+#conteudocinza{
+  background-color: rgb(56, 56, 56);
+}
+img.rede:hover{
+  background: linear-gradient(48deg, rgba(236,255,0,1) 0%, rgba(253,29,29,1) 39%, rgba(109,2,240,1) 79%);
+  border-style: nome;
+  border-radius: 28%;
+}
